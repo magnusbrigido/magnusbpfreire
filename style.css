@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #A6D6FF;
+    color:black;
+    font-family: 'Merienda', cursive;
+}
+
+header img{
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+nav a, a:hover{
+    color: white;
+    font-size: 18px;
+}
+
+footer, nav{
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}
+
+header .col-md-12{
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+}
+
+.separacao{
+    border-right: dashed 2px gray;
+}
+
+#sobre,
+#formacao{
+    margin: 10px 0;
+}
+#contato{
+    margin-top: 20px;
+}
